@@ -1,0 +1,14 @@
+.chip-shadow-3d{
+    border-radius: 39px;
+    background: #ffffff;
+    box-shadow:  -8px 8px 16px #dbdbdb,
+                 8px -8px 16px #ffffff;
+}
+
+.about-me-images{
+    border-radius: 0px;
+background: #ffffff;
+box-shadow:  -7px 7px 14px #c9c9c9,
+             7px -7px 14px #ffffff;
+
+}

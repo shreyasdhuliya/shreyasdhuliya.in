@@ -1,0 +1,35 @@
+.profile-image{
+    background: #fff;
+    left: 50%;
+    top: 190px; 
+    position: absolute; 
+    height:200px; 
+    width:200px; 
+    border-radius:50%; 
+    overflow:hidden;
+    transform: translate(-50%);
+    z-index:2;
+    padding:10px;
+    box-shadow: 1px 1px 14px 4px rgba(0,0,0,0.2);
+-webkit-box-shadow: 1px 1px 14px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 1px 1px 14px 4px rgba(0,0,0,0.2);
+}
+
+@media (max-width:600px){
+    .profile-image{
+        top: 115px;
+    }
+}
+
+
+
+
+@keyframes enterdp {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+.transition-dp{
+    animation-name: enterdp;
+    animation-duration: .5s;
+}

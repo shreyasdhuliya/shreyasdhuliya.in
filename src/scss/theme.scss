@@ -1,0 +1,36 @@
+@import 'colorCodes';
+
+$shrey-colors:("milk-white":$shrey--milk-white, "white":$shrey--white, "black": $shrey--black, "gray": $shrey--gray, "primary":$shrey--primary);
+
+//background
+@each $bg, $color in $shrey-colors{
+    .shrey-bg--#{$bg}{
+        background-color: $color;
+    }
+}
+
+
+//font-color
+@each $fc, $color in $shrey-colors{
+    .shrey-fc--#{$fc}{
+        color: $color;
+    }
+}
+
+.theme-serif{
+    font-family: "Old Standard TT", serif !important;
+}
+
+.theme-text-shadow{
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.57);
+}
+
+.name--h3{
+    color: #3C4858;
+    position: relative;
+    margin-top: 80px;
+    min-height: 32px;
+    font-family: "Roboto Slab", "Times New Roman", serif !important;
+    font-weight: 700;
+    text-decoration: none;
+}

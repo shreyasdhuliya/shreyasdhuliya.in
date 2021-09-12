@@ -1,0 +1,57 @@
+@import '../../scss/colorCodes';
+@import '../../scss//breakPoints.scss';
+
+.sociallinks{
+    background: white!important;
+    width:28px !important;
+    height:28px !important;
+    margin-right: 12px !important;
+    @media screen and (max-width:$breakpoint-m){
+        transform:scale(0.9);
+        margin-right:4px !important;
+    }
+    &:hover{
+        transform: scale(1.1);
+        @media screen and (max-width:$breakpoint-m){
+          transform:scale(.97);
+         }
+    }
+    &:focus{
+        outline: 0 !important
+        }
+}
+
+
+
+
+
+.enterbtn{
+    color: $shrey--white !important;
+    border:3px solid white  !important;
+    border-radius:0 !important;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background:rgba(0,0,0,.1) !important;
+    /*animation */
+    opacity: 0;
+    animation-name: opacity0to1;
+    animation-delay: .8s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    &:hover{
+        background:rgba(255,255,255,0.1) !important;
+    }
+    &:focus{
+        outline: 0 !important
+        }
+}
+
+.enter-transition{
+    opacity: 0;
+    animation-name: opacity0to1;
+    animation-delay: .3s;
+    animation-duration: .8s;
+    animation-fill-mode: forwards;
+  }

@@ -1,0 +1,48 @@
+@import '../../scss/colorCodes.scss';
+
+.cursor-pointer{
+
+    cursor:pointer;
+}
+
+.artwork-nav{
+    position: fixed;
+    z-index:101;
+    right:45px;
+    width:50px;
+    top:50%; 
+    transform:translateY(-50%);
+    @media (max-width:992px){
+        display:none;
+    }
+}
+
+.MuiSpeedDialAction-staticTooltipLabel{
+    white-space: nowrap;
+}
+
+.MuiFab-primary{
+    background-color: $shrey--primary !important ;
+}
+
+.MuiSpeedDial-fab{
+    transform:scale(0.85);
+}
+
+.artwor-mobile-nav {
+
+    position:fixed;
+     bottom:60px; 
+     right:20px;
+    z-Index:100;
+
+    @media (min-width:992px){
+        display:none;
+    }
+
+    transform:scale(0.95);
+    @media (max-width:560px){
+        transform:scale(0.9);
+         bottom:50px;
+    }
+}
