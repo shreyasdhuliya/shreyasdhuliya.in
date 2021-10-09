@@ -6,6 +6,7 @@
 }
 
 .about-me-images{
+    min-height: 400px;
     border-radius: 0px;
 background: #ffffff;
 box-shadow:  -7px 7px 14px #c9c9c9,

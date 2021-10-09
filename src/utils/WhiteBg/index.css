@@ -4,7 +4,7 @@
     color:white;
     font-size: 35px;
     left:50%;
-    top:105px;
+    top:75px;
     position: absolute;
     transform: translate(-50%);
     z-index:1;
@@ -22,13 +22,14 @@
 
   @media (max-width:992px){
     .profile-info{
-      top: 75px;
+      top: 42px;
     }
   }
 
   @media (max-width:440px){
    .profile-info{
      width:310px;
+     font-size: 45px !important;
    }
    
   }
@@ -36,7 +37,7 @@
   .info-body {
       position:absolute;    
       left: 50%; 
-      top: 300px;
+      top: 200px;
       height:auto;
       padding-bottom: 30px; 
       width:100%;
@@ -48,19 +49,11 @@
 
     @media (max-width:992px){
       .info-body {
-        top: 200px;
+        top: 150px;
       }
 
     }
 
-    @media (max-width:600px){
-      /*for home page*/
-      .info-body {
-        top: 200px !important;
-      }
-
-    }
-  
     .info-body-top{
         padding:40px 30px;
         width:calc(100% - 80px);  
@@ -71,8 +64,8 @@
       margin-top:10px;
       background: #fff;    
       padding-bottom: 100px; 
-      border-top-left-radius:30px; 
-      border-top-right-radius:30px; 
+      border-top-left-radius:20px; 
+      border-top-right-radius:20px; 
       min-height:700px;
       box-shadow: 1px 1px 7px 4px rgba(0,0,0,0.20);
       -webkit-box-shadow: 1px 1px 7px 4px rgba(0,0,0,0.20);
@@ -87,7 +80,7 @@
 
     @media (max-width:576px){
       .info-body-top{
-        padding:40px 10px;
+        padding:40px 0px;
       }
     }
 

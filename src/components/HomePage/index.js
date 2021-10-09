@@ -23,7 +23,7 @@ function Home() {
     return (
       <>
             <ProfilePic />
-        <WhiteBg  top={ "280px"}>
+        <WhiteBg  top={ "200px"}>
           {/*Name ----------------------------------------------------------------------------------*/}
           <h4 className="name--h3 social-btn-2">
                 Shreyas Dhuliya

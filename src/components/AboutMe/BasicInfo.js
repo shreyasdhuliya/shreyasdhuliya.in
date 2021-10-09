@@ -83,7 +83,7 @@ export default function  BasicInfo(props) {
          {
          basicinfo === undefined ?  
          <Skeleton variant="rect" style={{width:"70%", marginBottom:"4px"}} height={16} />:
-          <Typography variant="body1" style={{fontSize: "12px" }}>{basicinfo["designation"]} @ {basicinfo["company"]}</Typography>
+          <Typography variant="body1" style={{fontSize: "14px", color: "rgba(0,0,0,0.67)" }}>{basicinfo["designation"]} @ {basicinfo["company"]}</Typography>
          }
 
          <Typography variant="h6" style={{marginTop:"10px", marginBottom:"10px"}}>Basic Info</Typography>
